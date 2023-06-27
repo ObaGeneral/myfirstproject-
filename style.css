@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background: #f5f5f5;
+}
+[class^="navbar"]{
+    width: 100%;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    z-index: 1;
+    position: fixed;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+    margin-left: 70rem;
+}
+
+h2{
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+.btn{
+    border-radius: 32.5px;
+    background: blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+    width: 10%;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.btn:focus{
+    color: blueviolet;
+    background: white;
+    border: 2px solid blueviolet;
+}
+
+.btn2{
+    border-radius: 32.5px;
+    background: blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+    width: 50%;
+    height: 5vh;
+    cursor: pointer;
+    margin-top: 2rem; 
+    margin-left: 4rem;
+}
+
+.btn2:focus{
+    color: blueviolet;
+    background: white;
+    border: 2px solid blueviolet;
+}
+
+.content{
+    font-size: 2rem;
+    margin-left: 6rem;
+    padding-top: 15rem;
+    display: flex;    
+    justify-content: space-between;
+}
+.img-gux{
+    width: 60rem;
+
+}
+.outer-shape{
+    width: 125rem;
+    height: 3rem;
+    background: white;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+
+.inner-shape{
+    width: 10rem;
+    height: 13rem;
+    margin-top: 9rem;
+    background-color: white;
+    display: flex;
+    margin-left: 10rem;
+    padding: 2rem;
+    align-items: center;
+    font-size: 2rem;
+    bottom: 3rem;
+    border-radius: 3rem;
+}
+.word{
+    margin-top: 5rem;
+    padding-top: 3rem;
+    height: 15rem;
+    color: blueviolet;
+}
+.paragraph{
+    padding-top: 4rem;
+    font-size: 1rem;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+}
+.inner-shapepics{
+    height: 34rem;
+    width:1rem;
+}
+img{
+    border-radius: 7rem;
+    margin-right: 5rem;
+    width: 8rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
